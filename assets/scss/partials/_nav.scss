@@ -24,7 +24,7 @@
   width: 100%;
 
 @media screen and (min-width: $medium) {
-    width: auto;
+    width: $navWidth;
   }}
 
 .nav__list {
