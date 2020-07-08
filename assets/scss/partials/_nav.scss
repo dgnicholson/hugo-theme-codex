@@ -22,7 +22,10 @@
   visibility: visible;
   height: 100%;
   width: 100%;
-}
+
+@media screen and (min-width: $medium) {
+    width: auto;
+  }}
 
 .nav__list {
   text-align: right;
@@ -31,7 +34,7 @@
   padding: 0;
   width: 50%;
 
-  @media screen and (min-width: $medium) {
+ @media screen and (min-width: $medium) {
     width: auto;
   }
 
@@ -47,6 +50,7 @@
 }
 
 .nav__list li {
+  margin-top: 1.5em;
   margin-bottom: 3em;
   line-height: 1.5em;
 
